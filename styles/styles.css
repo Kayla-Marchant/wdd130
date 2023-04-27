@@ -1,22 +1,41 @@
 nav {
-    background-color: steelblue;
+    background-color: #faedcd;
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: #3a5a40;
     display: block;
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: #d4a373;
 }
-img {
+main img {
     width: 150px;
     height: auto;
-    border: ipx solid steelblue;
+    border: ipx solid #d4a373;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 20px;
+    padding: 0;
+}
+main {
+    max-width: 840px;
+}
+aside {
+    margin: 1em;
+    border: 1px solid #faedcd;
+    padding: 1em;
+    background-color: #ccd5ae;
+    color: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
 }
