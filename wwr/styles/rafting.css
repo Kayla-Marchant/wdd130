@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+
+:root {
+    --primary-color: #072768;
+    --secondary-color: #996F51;
+    --accent1-color: #5079B2;
+    --accent2-color: #351303;
+
+    --heading-font: 'Overlock SC', serif;
+    --paragraph-font: 'Short Stack', serif;
+
+    --nav-background-color: #5079B2;
+    --nav-link-color: #996F51;
+    --nav-hover-link-color: #F7EFE8;
+    --nav-hover-background-color: #072768;
+}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+.hero div {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+}
+article {
+    position: absolute;
+}
+article img {
+    float: right;
+}
+article p {
+    padding: 0;
+}
