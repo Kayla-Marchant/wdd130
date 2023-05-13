@@ -11,8 +11,8 @@
     --paragraph-font: 'Short Stack', serif;
 
     --nav-background-color: #5079B2;
-    --nav-link-color: #996F51;
-    --nav-hover-link-color: #F7EFE8;
+    --nav-link-color: #F7EFE8;
+    --nav-hover-link-color: #996F51;
     --nav-hover-background-color: #072768;
 }
 body {
@@ -40,6 +40,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 nav a {
     display: block;
@@ -85,4 +87,14 @@ article p {
 }
 figure img {
     width: 20%;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+}
+.figs {
+    display: grid;
+    /* flex-direction: row-reverse; */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
 }
