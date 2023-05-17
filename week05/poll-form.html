@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Kayla Marchant | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!-- form elements here -->
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="usermail">Email:</label>
+                <input type="email" id="usermail" name="usermail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <!-- form elements here -->
+                <ol class="one">
+                    <label for="browser">What is your favorite browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="edge">Edge</option>
+                        <option value="firefox">Firefox</option>
+                    </select>
+                </ol>
+                
+                <ol class="two">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </ol>
+                
+
+                <label for="places">List the places you have lived:</label>
+                <textarea name="places" id="places" rows="4" placeholder="Tampa Bay Florida, Idaho Falls Idaho, Nashville Tennessee, Salt Lake City Utah"></textarea>
+                
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>©2023 |  HTML Form - User Poll Activity | Kayla Marchant</p>
+    </footer>
+</body>
+</html>
