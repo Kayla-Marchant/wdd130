@@ -54,7 +54,7 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
-    float:8px;
+    /* float: ; */
 
 }
 button{
