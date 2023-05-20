@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <img src="images/wwr.jpg" alt="Rafting Site Logo">
+        <nav>
+            <a href="https://index.html">index</a>
+            <a href="https://about.html">about</a>
+            <a href="https://trips.html">trips</a>
+            <a href="https://contact.html">contact</a>
+        </nav>
+    </header>
+    <main>
+        <div class="crop-container">
+            <section class="figs">
+            
+                <figure>
+                    <img src="images/manager.jpg" alt="employee1 image" style="width: 200px; height: 200px; object-fit: cover;">
+                    <figcaption>Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/asstant.jpg" alt="employee2 image" style="width: 200px; height: 200px; object-fit: cover;">
+                    <figcaption>Assistant Manager</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/eofm.jpg" alt="employee3 image" style="width: 200px; height: 200px; object-fit: cover;">
+                    <figcaption>Employee of the Month</figcaption>
+                </figure>
+            </section>
+        </div>
+        <section class="parent">
+            <h2>Contact Us</h2>
+            <div class="info">
+                <p>Address: 1499 S 6000 W, Rexburg, ID 83440</p>
+                <p>Main Office: (123)-456-7890</p>
+                <p>Email: rafting_company@gmail.com</p>
+            </div>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11189.66485715519!2d-111.9009025483623!3d43.8063379866906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1684530479518!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        
+
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <!-- form elements here -->
+                <label for="fullname">Full name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="usermail">Email:</label>
+                <input type="email" id="usermail" name="usermail">
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Choose the purpose of your message:</legend>
+
+                <form >
+                    <input type="radio" id="general" name="purpose" value="General">
+                    <label class="container" for="general">General Inquiry</label><br>
+                    <input type="radio" id="reserve" name="purpose" value="Reserve">
+                    <label class="container" for="reserve">Reservation Question</label><br>
+                    <input type="radio" id="suggest" name="purpose" value="Suggest">
+                    <label class="container" for="suggest">Website Suggestion</label>
+                </form>
+
+                <label for="message">Your Message:</label>
+                <textarea name="message" id="message" rows="4" placeholder="What are your office hours?"></textarea>
+                
+                <ol>
+                    <label for="newsletter">Please subscribe me to the monthly newsletter!</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </ol>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+
+        </form>
+        
+    </main>
+    <footer>
+        <p>©2023 ✔ Company Name ✔ Kayla Marchant</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebookyes.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.png" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
