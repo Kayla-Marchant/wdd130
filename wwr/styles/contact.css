@@ -110,7 +110,7 @@ figure {
     margin: 0;
     padding: 0;
 }
-form {
+.questions {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -156,7 +156,7 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
-    float:8px;
+    /* float:8px; */
 }
 .map {
     position: relative;
