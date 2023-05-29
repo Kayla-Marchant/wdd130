@@ -46,6 +46,7 @@ nav {
     display: flex;
     /* flex-direction: row; */
     justify-content:right;
+    margin-top: 50px;
 }
 nav a {
     display: block;
