@@ -2,27 +2,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 
 :root {
-    --primary-color: #351303;
+    --primary-color: #F7EFE8;
     --secondary-color: #072768;
-    --accent1-color: #996F51;
-    --accent2-color: #5079B2;
+    --accent1-color: #5079B2;
+    --accent2-color: #351303;
 
     --heading-font: 'Overlock SC', serif;
     --paragraph-font: 'Short Stack', serif;
 
-    --nav-background-color: #F7EFE8;
-    --nav-link-color: #072768;
-    --nav-hover-link-color: #5079B2;
-    --nav-hover-background-color: #996F51;
+    --nav-background-color: #5079B2;
+    --nav-link-color: #F7EFE8;
+    --nav-hover-link-color: #996F51;
+    --nav-hover-background-color: #072768;
 }
 body {
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1{
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    font-size: 400%;
 }
 header {
     padding: 20px;
@@ -35,6 +40,11 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content:right;
+    margin-top: 50px;
+}
+nav p {
+    text-align: left;
 }
 nav a {
     display: block;
