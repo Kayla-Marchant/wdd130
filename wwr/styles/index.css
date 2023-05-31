@@ -177,3 +177,28 @@ input[type="checkbox"] {
     display: grid;
     grid-column: 1fr 1fr;
 }
+.purpose {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    text-align: center;
+    padding: 1px;
+    background-color: #C4C8A6;
+  }
+  /* The figure element has a default margin. Remove the margin but setting it to 0. */
+  .purpose figure {
+    margin: 10px;
+    
+  }
+  
+  /*We want the images to stay inside the width of the column. To do that, we set the max-width to 100%. */
+  .purpose figure img {
+    max-width: 400px;
+    max-height: 185px;
+  }
+  .purpose p{
+    text-align: left;
+  }
+  .purpose figcaption {
+    font-weight: bold;
+  }
