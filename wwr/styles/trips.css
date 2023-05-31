@@ -24,7 +24,7 @@ h1{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -114,4 +114,106 @@ h2 {
 figure {
     margin: 0;
     padding: 0;
+}
+.purpose {
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+.purpose {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: flex-start;
+    gap: 0;
+    text-align: center;
+    padding: 1px;
+    background-color: #C4C8A6;
+  }
+  /* The figure element has a default margin. Remove the margin but setting it to 0. */
+  .purpose figure {
+    margin: 10px;
+    
+  }
+  
+  /*We want the images to stay inside the width of the column. To do that, we set the max-width to 100%. */
+  .purpose figure img {
+    max-width: 400px;
+    max-height: 185px;
+  }
+  .purpose p{
+    text-align: left;
+    color: white;
+  }
+  .purpose figcaption {
+    font-weight: bold;
+  }
+  .container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .questions {
+    width: 300px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.3em;
+}
+label {
+    text-align: center;
+    margin-right: 1em;
+    font-size: small;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+button{
+    margin: 1rem;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover {
+    background-color: darkblue;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    /* float:8px; */
+}
+.questions p {
+    text-align: center;
+    font-weight: bold;
+}
+.book {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
 }
