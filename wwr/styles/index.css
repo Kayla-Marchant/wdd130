@@ -173,3 +173,7 @@ input[type="checkbox"] {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+.purpose {
+    display: grid;
+    grid-column: 1fr 1fr;
+}
