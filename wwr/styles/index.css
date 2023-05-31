@@ -173,10 +173,7 @@ input[type="checkbox"] {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-.purpose {
-    display: grid;
-    grid-column: 1fr 1fr;
-}
+
 .purpose {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -201,4 +198,7 @@ input[type="checkbox"] {
   }
   .purpose figcaption {
     font-weight: bold;
+  }
+  figcaption {
+    margin-bottom: 5px;
   }

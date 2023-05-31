@@ -115,10 +115,7 @@ figure {
     margin: 0;
     padding: 0;
 }
-.purpose {
-    display: grid;
-    grid-column: 1fr 1fr;
-}
+
 .purpose {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
